@@ -1,2 +1,5 @@
 spring:
-  profile: defaulot
+  config:
+    activate:
+      on-profile: mappings
+  profile: default
