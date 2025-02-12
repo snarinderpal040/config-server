@@ -1,13 +1,1 @@
-mapping: 
-  app1:
-    code1:
-      screen1: er123
-      screen2: er343
-      screen3: we344
-      screen4: dr343
-    code2:
-      screen1: ddfdff333
-      screen2: dddfd2322
-      screen3: errtf2323
-    code3:
-      default: efr343
+mapping: xyz
