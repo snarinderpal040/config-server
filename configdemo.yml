@@ -1,2 +1,3 @@
 spring:
-  profile: none
+  profiles:
+    include: mappings
