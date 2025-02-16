@@ -1,14 +1,22 @@
 skillcodes:
   mappings:
-    app1:
-      code1: abc
-      code2: xyz
-      code3: ghj
-    app2:
-      code1: hdid
-      code2: hdui
-      code3: jksd
-    app3:
-      code1: sdsdc
-      code2: sdsdc
-      code3: sdwed
+    CMOB:
+      balance: 
+        screen1: 123
+        screen2: 234
+        screen3: 676
+      transfer:
+        screen1: 679
+        screen2: 778
+        screen3: 7888
+      account: 
+        screen1: 689
+        screen2: 678
+        screen3: 778
+    USMB:
+      enquiry:
+        screen1: 7678
+        screen2: 880
+    ETDI:
+      default:
+        screen1: 688678
