@@ -1,6 +1,6 @@
 skillcodes:
   mappings:
-    CMOB:
+    app1:
       balance: 
         screen1: 123
         screen2: 234
@@ -13,10 +13,10 @@ skillcodes:
         screen1: 689
         screen2: 678
         screen3: 778
-    USMB:
+    app2:
       enquiry:
         screen1: 7678
         screen2: 880
-    ETDI:
+    app3:
       default:
         screen1: 688678
