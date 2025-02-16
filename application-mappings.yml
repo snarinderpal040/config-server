@@ -1,2 +1,14 @@
-mapping:
-  mapping: xyz
+skillcodes:
+  mappings:
+    app1:
+      code1: abc
+      code2: xyz
+      code3: ghj
+    app2:
+      code1: hdid
+      code2: hdui
+      code3: jksd
+    app3:
+      code1: sdsdc
+      code2: sdsdc
+      code3: sdwed
