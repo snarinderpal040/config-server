@@ -1,2 +1,27 @@
 spring:
-  profile: dev
+  application:
+    name: expense-management
+  datasource:
+    url: jdbc:oracle:thin:@//localhost:1521/ORCLCDB
+    username: ${DATASOURCE_USERNAME:C##TEST1}
+    password: ${DATASOURCE_PASSWORD:mypassword}
+server:
+  port: 8443
+  servlet:
+    context-path: /v1
+logging:
+  level:
+    root: ${ROOT_LOG_LEVEL:INFO}
+    com.narinder.expensemanagement: ${CODE_LOG_LEVEL:DEBUG}
+    org.springframework.security: ${SPRING_SECURITY_LOG_LEVEL:TRACE}
+management:
+  endpoint:
+    configprops:
+      show-values: always
+    env:
+      show-values: always
+  endpoints:
+    web:
+      exposure:
+        include: configprops
+
